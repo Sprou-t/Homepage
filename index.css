@@ -1,0 +1,5 @@
+/* mobile phones <500, 500<tablet<1000, desktop>1000 */
+/* mobile first development */
+p{
+	color: red;
+}
