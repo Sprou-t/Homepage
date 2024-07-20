@@ -1,5 +1,46 @@
 /* mobile phones <500, 500<tablet<1000, desktop>1000 */
 /* mobile first development */
-p{
-	color: red;
+
+header{
+	background-color: orange;
+	display: flex;
+	padding: 20px;
+}
+
+.profileWrapper {
+	min-width: 200px;
+    width: 20%; /* Responsive width */
+	/* note that height = content height plus vertical padding
+	since we dont hv any content height in the div, adding vertical
+	padding = adding height, thus padding-top= height; */
+    padding-top: 22%; /* Same as width to maintain aspect ratio */
+    position: relative; /* Required for absolute positioning */
+    border-radius: 50%; /* Circular shape */
+    overflow: hidden; /* Ensures the image doesn't overflow the container & form sq*/
+	margin-right: 50px;
+}
+
+.profilePic{
+	position: absolute;
+	/* need to specify position to ensure no unexpected behaviour & make element position relative to nearest positioned ancestor */
+	top: 0;
+    left: 0;
+	width: 100%;
+	height: 100%;
+	/* this property edits the photo to fit while maintaining aspect ratio */
+	object-fit: cover;
+}
+
+header section{
+	background-color: white;
+	opacity: 0.8;
+	padding: 10px;
+	border-radius: 5px;
+}
+main{
+	background-color: white;
+}
+
+footer{
+	background-color: orange;
 }
