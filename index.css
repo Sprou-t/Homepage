@@ -40,6 +40,57 @@ header section{
 main{
 	background-color: white;
 }
+.project_cards{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 50px;
+	margin-bottom: 50px;
+}
+
+.card{
+	/* margin-bottom: 50px; */
+}
+
+.project_cards section{
+	width: 230px
+}
+
+.project_screenshot.one{
+	background-color: red;
+	height: 50%;
+}
+.project_screenshot.two{
+	background-color: green;
+	height: 50%;
+}
+.project_screenshot.three{
+	background-color: yellow;
+	height: 50%;
+}
+.project_screenshot.four{
+	background-color: blue;
+	height: 50%;
+}
+.project_screenshot.five{
+	background-color: orange;
+	height: 50%;
+}
+.project_screenshot.six{
+	background-color: purple;
+	height: 50%;
+}
+
+
+.card_heading{
+	display: flex;
+	justify-content:space-between;
+}
+
+section img{
+	height: 15px;
+	width: auto;
+}
 
 footer{
 	background-color: orange;
