@@ -10,7 +10,7 @@
 This is a homepage for a portfolio project. It is responsive to mobile, tablet and a desktop in its design.
 
 ## Phone (375p)
-![sprou-t github io_homepage_](https://github.com/user-attachments/assets/fe705332-63c7-458e-b909-84262e4f3df3
+![sprou-t github io_homepage_](https://github.com/user-attachments/assets/fe705332-63c7-458e-b909-84262e4f3df3)
 
 
 ## Tablet (768px)
